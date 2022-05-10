@@ -1,0 +1,30 @@
+LogisticRegression
+Training time : 3.188 s
+
+		Accuracy
+Train Accuracy: 94.77
+Validation Accuracy: 94.74
+
+		F1-Score
+Train F1-Score: 16.40
+Validation F1-Score: 15.55
+
+Train: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97    299103
+           1       0.78      0.09      0.16     17737
+
+    accuracy                           0.95    316840
+   macro avg       0.86      0.55      0.57    316840
+weighted avg       0.94      0.95      0.93    316840
+
+Validation: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97     74776
+           1       0.76      0.09      0.16      4434
+
+    accuracy                           0.95     79210
+   macro avg       0.86      0.54      0.56     79210
+weighted avg       0.94      0.95      0.93     79210

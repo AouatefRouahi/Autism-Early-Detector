@@ -1,0 +1,30 @@
+XGBClassifier
+Training time : 10.482 s
+
+		Accuracy
+Train Accuracy: 96.09
+Validation Accuracy: 95.81
+
+		F1-Score
+Train F1-Score: 55.51
+Validation F1-Score: 52.58
+
+Train: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98    299103
+           1       0.76      0.44      0.56     17737
+
+    accuracy                           0.96    316840
+   macro avg       0.87      0.71      0.77    316840
+weighted avg       0.96      0.96      0.96    316840
+
+Validation: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98     74776
+           1       0.72      0.42      0.53      4434
+
+    accuracy                           0.96     79210
+   macro avg       0.84      0.70      0.75     79210
+weighted avg       0.95      0.96      0.95     79210

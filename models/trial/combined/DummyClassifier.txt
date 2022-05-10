@@ -1,0 +1,30 @@
+DummyClassifier
+Training time : 3.276 s
+
+		Accuracy
+Train Accuracy: 94.40
+Validation Accuracy: 94.40
+
+		F1-Score
+Train F1-Score: 0.00
+Validation F1-Score: 0.00
+
+Train: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97    299103
+           1       0.00      0.00      0.00     17737
+
+    accuracy                           0.94    316840
+   macro avg       0.47      0.50      0.49    316840
+weighted avg       0.89      0.94      0.92    316840
+
+Validation: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97     74776
+           1       0.00      0.00      0.00      4434
+
+    accuracy                           0.94     79210
+   macro avg       0.47      0.50      0.49     79210
+weighted avg       0.89      0.94      0.92     79210

@@ -1,0 +1,30 @@
+RandomForestClassifier
+Training time : 376.606 s
+
+		Accuracy
+Train Accuracy: 97.32
+Validation Accuracy: 95.38
+
+		F1-Score
+Train F1-Score: 70.04
+Validation F1-Score: 40.24
+
+Train: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99    299103
+           1       0.93      0.56      0.70     17737
+
+    accuracy                           0.97    316840
+   macro avg       0.95      0.78      0.84    316840
+weighted avg       0.97      0.97      0.97    316840
+
+Validation: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98     74776
+           1       0.73      0.28      0.40      4434
+
+    accuracy                           0.95     79210
+   macro avg       0.84      0.64      0.69     79210
+weighted avg       0.95      0.95      0.94     79210

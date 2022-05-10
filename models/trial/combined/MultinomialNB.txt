@@ -1,0 +1,30 @@
+MultinomialNB
+Training time : 3.359 s
+
+		Accuracy
+Train Accuracy: 73.21
+Validation Accuracy: 73.34
+
+		F1-Score
+Train F1-Score: 20.68
+Validation F1-Score: 20.39
+
+Train: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.97      0.74      0.84    299103
+           1       0.12      0.62      0.21     17737
+
+    accuracy                           0.73    316840
+   macro avg       0.55      0.68      0.52    316840
+weighted avg       0.92      0.73      0.80    316840
+
+Validation: Classification Report
+              precision    recall  f1-score   support
+
+           0       0.97      0.74      0.84     74776
+           1       0.12      0.61      0.20      4434
+
+    accuracy                           0.73     79210
+   macro avg       0.55      0.68      0.52     79210
+weighted avg       0.92      0.73      0.80     79210
